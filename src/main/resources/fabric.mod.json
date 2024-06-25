@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kaupenjoemysavior",
+	"version": "${version}",
+	"name": "Kaupenjoe my savior",
+	"description": "First mod, all possible because of Kaupenjoe lol",
+	"authors": [
+		"Emmaallyy!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/kaupenjoemysavior/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.emmaallyy.tutorialmod.KaupenjoeMySavior"
+		],
+		"client": [
+			"net.emmaallyy.tutorialmod.KaupenjoeMySaviorClient"
+		],
+		"fabric-datagen": [
+			"net.emmaallyy.tutorialmod.KaupenjoeMySaviorDataGenerator"
+		]
+	},
+	"mixins": [
+		"kaupenjoemysavior.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
