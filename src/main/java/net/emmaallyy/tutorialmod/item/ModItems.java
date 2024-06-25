@@ -14,11 +14,13 @@ import net.minecraft.util.Identifier;
 public class ModItems
 {
     public static final Item CREWMATE = registerItem("moongus", new Item(new FabricItemSettings()));
+    public static final Item MOONGITE = registerItem("moongite", new Item(new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)
     {
         entries.add(CREWMATE);
+        entries.add(MOONGITE);
     }
 
     private static Item registerItem(String name, Item item)
