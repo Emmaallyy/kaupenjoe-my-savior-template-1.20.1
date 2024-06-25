@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems
 {
     public static final Item CREWMATE = registerItem("moongus", new Item(new FabricItemSettings()));
+
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)
     {
         entries.add(CREWMATE);
