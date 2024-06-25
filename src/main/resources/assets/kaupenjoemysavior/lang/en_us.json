@@ -1,4 +1,8 @@
 {
   "item.kaupenjoemysavior.moongus": "Moongus",
-  "item.kaupenjoemysavior.moongite": "Moongite"
+  "item.kaupenjoemysavior.moongite": "Moongite",
+
+  "block.kaupenjoemysavior.moongite_ore": "Moongite Ore",
+
+  "itemgroup.moongus": "Moongus Group"
 }
