@@ -1,6 +1,7 @@
 package net.emmaallyy.tutorialmod.item;
 
 import net.emmaallyy.tutorialmod.KaupenjoeMySavior;
+import net.emmaallyy.tutorialmod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -15,6 +16,9 @@ public class ModItems
 {
     public static final Item CREWMATE = registerItem("moongus", new Item(new FabricItemSettings()));
     public static final Item MOONGITE = registerItem("moongite", new Item(new FabricItemSettings()));
+
+    public static final Item METALDETECTOR = registerItem("meetingbutton",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)

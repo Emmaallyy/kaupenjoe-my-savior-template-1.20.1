@@ -18,7 +18,9 @@ public class ModItemsGroups {
                     .icon(() -> new ItemStack(ModItems.CREWMATE)).entries((displayContext, entries) -> {
                     entries.add(ModItems.CREWMATE);
                     entries.add(ModItems.MOONGITE);
+                    entries.add(ModItems.METALDETECTOR);
                     entries.add(ModBlocks.MOONGITE_BLOCK);
+
                     }).build());
 
 
