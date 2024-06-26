@@ -9,6 +9,7 @@ import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
 
 public class MetalDetectorItem extends Item {
     public MetalDetectorItem(Settings settings)
@@ -22,18 +23,20 @@ public class MetalDetectorItem extends Item {
             BlockPos positionClicked = context.getBlockPos();
             PlayerEntity player = context.getPlayer();
             boolean foundBlock = false;
+                    for(int i = -64; i <= positionClicked.getY() + 64; i++) {
+                        BlockState state = context.getWorld().getBlockState(positionClicked.down(i));
 
-            for(int i = 0; i <= positionClicked.getY() + 64; i++) {
-                BlockState state = context.getWorld().getBlockState(positionClicked.down(i));
+                        if (isValuableBlock(state)) {
+                            outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
+                            foundBlock = true;
 
-                if(isValuableBlock(state)) {
-                    outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
-                    foundBlock = true;
+                            break;
+                        }
+                    }
 
-                    break;
-                }
 
-            }
+
+
             if (!foundBlock)
             {
                 player.sendMessage(Text.literal("No Valuables Found"));
