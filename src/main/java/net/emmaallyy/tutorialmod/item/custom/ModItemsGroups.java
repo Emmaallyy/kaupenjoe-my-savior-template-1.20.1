@@ -1,4 +1,4 @@
-package net.emmaallyy.tutorialmod.item;
+package net.emmaallyy.tutorialmod.item.custom;
 
 import net.emmaallyy.tutorialmod.KaupenjoeMySavior;
 import net.emmaallyy.tutorialmod.block.ModBlocks;

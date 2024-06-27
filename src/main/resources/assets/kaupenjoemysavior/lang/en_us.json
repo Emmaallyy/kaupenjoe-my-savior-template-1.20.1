@@ -2,10 +2,13 @@
   "item.kaupenjoemysavior.moongus": "Moongus",
   "item.kaupenjoemysavior.moongite": "Moongite",
   "item.kaupenjoemysavior.meetingbutton": "Meeting Button",
+  "item.kaupenjoemysavior.energy_fruit": "Energy Fruit",
 
 
   "block.kaupenjoemysavior.moongite_ore": "Moongite Ore",
   "block.kaupenjoemysavior.scream_sand": "Scream Sand",
+
+  "tooltip.kaupenjoemysavior.metaldetector.tooltip": "Detects sussy imposters buried underground.",
 
   "itemgroup.moongus": "Moongus Group"
 }

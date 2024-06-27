@@ -1,9 +1,7 @@
-package net.emmaallyy.tutorialmod.item;
+package net.emmaallyy.tutorialmod.item.custom;
 
 import net.emmaallyy.tutorialmod.KaupenjoeMySavior;
 import net.emmaallyy.tutorialmod.block.ModBlocks;
-import net.emmaallyy.tutorialmod.item.custom.MetalDetectorItem;
-import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -17,6 +15,7 @@ public class ModItems
 {
     public static final Item CREWMATE = registerItem("moongus", new Item(new FabricItemSettings()));
     public static final Item MOONGITE = registerItem("moongite", new Item(new FabricItemSettings()));
+    public static final Item ENERGYFRUIT = registerItem("energy_fruit", new Item(new FabricItemSettings().food(ModFoodComponents.ENERGYFRUIT)));
 
     public static final Item METALDETECTOR = registerItem("meetingbutton",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
@@ -31,6 +30,10 @@ public class ModItems
     {
         entries.add(ModBlocks.SCREAM_SAND);
     }
+    private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries)
+    {
+        entries.add(ENERGYFRUIT);
+    }
 
     private static Item registerItem(String name, Item item)
     {
@@ -40,6 +43,7 @@ public class ModItems
     public static void registerModItems()
     {
         KaupenjoeMySavior.LOGGER.info("Registering Mod Items for " + KaupenjoeMySavior.MOD_ID);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBlocksItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
