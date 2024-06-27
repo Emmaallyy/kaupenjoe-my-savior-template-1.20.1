@@ -15,6 +15,7 @@ public class ModItems
 {
     public static final Item CREWMATE = registerItem("moongus", new Item(new FabricItemSettings()));
     public static final Item MOONGITE = registerItem("moongite", new Item(new FabricItemSettings()));
+    public static final Item BARBATOSSOUL = registerItem("barbatos_soul", new BarbatosSoul(new FabricItemSettings()));
     public static final Item ENERGYFRUIT = registerItem("energy_fruit", new Item(new FabricItemSettings().food(ModFoodComponents.ENERGYFRUIT)));
 
     public static final Item METALDETECTOR = registerItem("meetingbutton",
@@ -25,6 +26,7 @@ public class ModItems
     {
         entries.add(CREWMATE);
         entries.add(MOONGITE);
+        entries.add(BARBATOSSOUL);
     }
     private static void addItemsToBlocksItemGroup(FabricItemGroupEntries entries)
     {

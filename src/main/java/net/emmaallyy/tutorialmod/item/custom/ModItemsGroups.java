@@ -21,6 +21,7 @@ public class ModItemsGroups {
                     entries.add(ModItems.MOONGITE);
                     entries.add(ModItems.METALDETECTOR);
                     entries.add(ModBlocks.MOONGITE_BLOCK);
+                    entries.add(ModItems.BARBATOSSOUL);
 
 
                     }).build());
