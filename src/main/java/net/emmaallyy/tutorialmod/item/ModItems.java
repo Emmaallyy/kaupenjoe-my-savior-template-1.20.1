@@ -1,6 +1,7 @@
 package net.emmaallyy.tutorialmod.item;
 
 import net.emmaallyy.tutorialmod.KaupenjoeMySavior;
+import net.emmaallyy.tutorialmod.block.ModBlocks;
 import net.emmaallyy.tutorialmod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -26,6 +27,10 @@ public class ModItems
         entries.add(CREWMATE);
         entries.add(MOONGITE);
     }
+    private static void addItemsToBlocksItemGroup(FabricItemGroupEntries entries)
+    {
+        entries.add(ModBlocks.SCREAM_SAND);
+    }
 
     private static Item registerItem(String name, Item item)
     {
@@ -35,7 +40,7 @@ public class ModItems
     public static void registerModItems()
     {
         KaupenjoeMySavior.LOGGER.info("Registering Mod Items for " + KaupenjoeMySavior.MOD_ID);
-
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBlocksItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 

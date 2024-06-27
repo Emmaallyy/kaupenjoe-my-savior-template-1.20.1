@@ -3,6 +3,7 @@ package net.emmaallyy.tutorialmod.item;
 import net.emmaallyy.tutorialmod.KaupenjoeMySavior;
 import net.emmaallyy.tutorialmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -21,9 +22,13 @@ public class ModItemsGroups {
                     entries.add(ModItems.METALDETECTOR);
                     entries.add(ModBlocks.MOONGITE_BLOCK);
 
+
                     }).build());
 
+    private static void addItemsToBlocksItemGroup(FabricItemGroupEntries entries)
+    {
 
+    }
     public static void registerItemGroups()
     {
         KaupenjoeMySavior.LOGGER.info("Registering Item Groups for " +KaupenjoeMySavior.MOD_ID);
