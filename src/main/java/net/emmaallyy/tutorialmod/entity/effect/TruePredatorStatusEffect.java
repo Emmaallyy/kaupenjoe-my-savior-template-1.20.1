@@ -7,7 +7,7 @@ import net.minecraft.entity.effect.StatusEffects;
 
 public class TruePredatorStatusEffect extends StatusEffect {
     public TruePredatorStatusEffect() {
-        super(StatusEffectCategory.BENEFICIAL, 0x98D982);
+        super(StatusEffectCategory.BENEFICIAL, 16711680);
     }
 
     @Override
