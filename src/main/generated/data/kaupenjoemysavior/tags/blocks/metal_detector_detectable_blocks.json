@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "kaupenjoemysavior:moongite_ore",
+    "#minecraft:gold_ores"
+  ]
+}
