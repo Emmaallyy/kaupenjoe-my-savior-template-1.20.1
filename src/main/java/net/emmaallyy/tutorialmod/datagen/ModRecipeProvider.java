@@ -22,5 +22,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerSmelting(exporter, MOONGUS_SMELTABLES, RecipeCategory.MISC, ModItems.CREWMATE, 0.7f,200, "moongus");
         offerBlasting(exporter, MOONGUS_SMELTABLES, RecipeCategory.MISC, ModItems.CREWMATE, 0.7f,100, "moongus");
+
+
     }
 }

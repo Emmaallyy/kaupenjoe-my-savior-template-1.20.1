@@ -10,6 +10,17 @@
 
   "block.kaupenjoemysavior.moongite_ore": "Moongite Ore",
   "block.kaupenjoemysavior.scream_sand": "Scream Sand",
+  "block.kaupenjoemysavior.astral_planks": "Astral Planks",
+
+  "block.kaupenjoemysavior.astral_stair": "Astral Stairs",
+  "block.kaupenjoemysavior.astral_slab": "Astral Slab",
+  "block.kaupenjoemysavior.astral_button": "Astral Button",
+  "block.kaupenjoemysavior.astral_pressure_plate": "Astral Pressure Plate",
+  "block.kaupenjoemysavior.astral_fence": "Astral Fence",
+  "block.kaupenjoemysavior.astral_fence_gate": "Astral Fence Gate",
+  "block.kaupenjoemysavior.astral_wall": "Astral Wall",
+  "block.kaupenjoemysavior.astral_door": "Astral Door",
+  "block.kaupenjoemysavior.astral_trapdoor": "Astral Trapdoor",
 
   "tooltip.kaupenjoemysavior.metaldetector.tooltip": "Detects sussy imposters buried underground.",
 

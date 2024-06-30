@@ -17,6 +17,18 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
          blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOONGITE_BLOCK);
          blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SCREAM_SAND);
+         BlockStateModelGenerator.BlockTexturePool astralPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ASTRAL_PLANKS);
+
+         astralPool.stairs(ModBlocks.ASTRAL_STAIRS);
+         astralPool.slab(ModBlocks.ASTRAL_SLAB);
+         astralPool.button(ModBlocks.ASTRAL_BUTTON);
+         astralPool.pressurePlate(ModBlocks.ASTRAL_PRESSURE_PLATE);
+         astralPool.fence(ModBlocks.ASTRAL_FENCE);
+         astralPool.fenceGate(ModBlocks.ASTRAL_FENCE_GATE);
+         astralPool.wall(ModBlocks.ASTRAL_WALL);
+
+         blockStateModelGenerator.registerDoor(ModBlocks.ASTRAL_DOOR);
+         blockStateModelGenerator.registerTrapdoor(ModBlocks.ASTRAL_TRAPDOOR);
     }
 
     @Override

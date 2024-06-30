@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "kaupenjoemysavior:block/astral_planks",
+    "side": "kaupenjoemysavior:block/astral_planks",
+    "top": "kaupenjoemysavior:block/astral_planks"
+  }
+}

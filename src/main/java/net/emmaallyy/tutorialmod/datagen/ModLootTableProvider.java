@@ -13,6 +13,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.SCREAM_SAND);
+        addDrop(ModBlocks.ASTRAL_PLANKS);
+        addDrop(ModBlocks.ASTRAL_STAIRS);
+        addDrop(ModBlocks.ASTRAL_BUTTON);
+        addDrop(ModBlocks.ASTRAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.ASTRAL_FENCE);
+        addDrop(ModBlocks.ASTRAL_FENCE_GATE);
+        addDrop(ModBlocks.ASTRAL_WALL);
+        addDrop(ModBlocks.ASTRAL_TRAPDOOR);
+
+        addDrop(ModBlocks.ASTRAL_DOOR, doorDrops(ModBlocks.ASTRAL_DOOR));
+        addDrop(ModBlocks.ASTRAL_SLAB, slabDrops(ModBlocks.ASTRAL_SLAB));
+
         addDrop(ModBlocks.MOONGITE_BLOCK, oreDrops(ModBlocks.MOONGITE_BLOCK, ModItems.MOONGITE));
     }
 }

@@ -20,6 +20,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOONGITE_BLOCK)
                 .forceAddTag(BlockTags.GOLD_ORES);
 
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.ASTRAL_PLANKS);
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(ModBlocks.SCREAM_SAND);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
@@ -30,6 +32,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.ASTRAL_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ASTRAL_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.ASTRAL_WALL);
+
 
     }
 }

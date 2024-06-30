@@ -31,6 +31,16 @@ public class ModItems
     private static void addItemsToBlocksItemGroup(FabricItemGroupEntries entries)
     {
         entries.add(ModBlocks.SCREAM_SAND);
+        entries.add(ModBlocks.ASTRAL_PLANKS);
+        entries.add(ModBlocks.ASTRAL_STAIRS);
+        entries.add(ModBlocks.ASTRAL_SLAB);
+        entries.add(ModBlocks.ASTRAL_BUTTON);
+        entries.add(ModBlocks.ASTRAL_PRESSURE_PLATE);
+        entries.add(ModBlocks.ASTRAL_FENCE);
+        entries.add(ModBlocks.ASTRAL_FENCE_GATE);
+        entries.add(ModBlocks.ASTRAL_WALL);
+        entries.add(ModBlocks.ASTRAL_DOOR);
+        entries.add(ModBlocks.ASTRAL_TRAPDOOR);
     }
     private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries)
     {

@@ -1,3 +1,13 @@
-// 1.20.1	2024-06-28T02:57:06.7095836	Kaupenjoe my savior/Block Loot Tables
-9c310f8539f265e4bd4792d9dcd5f4664d6dcc96 data\kaupenjoemysavior\loot_tables\blocks\moongite_ore.json
+// 1.20.1	2024-06-30T02:46:17.3228487	Kaupenjoe my savior/Block Loot Tables
+be96eaf32d9b055d6eede9c1dcff95123242fc55 data\kaupenjoemysavior\loot_tables\blocks\astral_stairs.json
+2250448abd653c21549ed7b234e06985597dcc33 data\kaupenjoemysavior\loot_tables\blocks\astral_wall.json
+7f26e0a3335d8101de28401774fc0b3e55c8d575 data\kaupenjoemysavior\loot_tables\blocks\astral_button.json
+9f961d320003712bbba4b27a69f55d6174401c33 data\kaupenjoemysavior\loot_tables\blocks\astral_fence.json
 1a3b7abbdd347333b01c27253e01e04ffa00a43d data\kaupenjoemysavior\loot_tables\blocks\scream_sand.json
+9c310f8539f265e4bd4792d9dcd5f4664d6dcc96 data\kaupenjoemysavior\loot_tables\blocks\moongite_ore.json
+600954c9b2aec1740b2bb9a9ac105a1a19f620b6 data\kaupenjoemysavior\loot_tables\blocks\astral_fence_gate.json
+2faef67fc646e1fefe33d9421e9425d235271fbf data\kaupenjoemysavior\loot_tables\blocks\astral_slab.json
+38dc9eaa06b207cc6dfee60e9ab305a7094aeabc data\kaupenjoemysavior\loot_tables\blocks\astral_pressure_plate.json
+87d0c0d8c8c08e7c2ab75e5957bc11d2c0288a41 data\kaupenjoemysavior\loot_tables\blocks\astral_planks.json
+f5b1a5a21d8f4c6d7a445f6173449dcd5000888e data\kaupenjoemysavior\loot_tables\blocks\astral_trapdoor.json
+cfba8bd04317b1caa43d0cd8432a8751b663c41b data\kaupenjoemysavior\loot_tables\blocks\astral_door.json
