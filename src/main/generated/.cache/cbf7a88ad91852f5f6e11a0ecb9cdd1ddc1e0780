@@ -1,8 +1,8 @@
-// 1.20.1	2024-06-30T02:46:17.3248242	Kaupenjoe my savior/Tags for minecraft:block
+// 1.20.1	2024-07-02T09:18:56.4576666	Kaupenjoe my savior/Tags for minecraft:block
 70119de4d701df93929b2350ebee2f9f9c8dd543 data\minecraft\tags\blocks\mineable\axe.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
-9ab55462cbdc33edac38a59c53f049705786b620 data\minecraft\tags\blocks\mineable\shovel.json
 992e91b9b5ef9b4b4b8ccfc53f05e78dd033d9cd data\minecraft\tags\blocks\mineable\pickaxe.json
+9ab55462cbdc33edac38a59c53f049705786b620 data\minecraft\tags\blocks\mineable\shovel.json
 27545235eb5e17409602d3da47c63eb89377ace6 data\kaupenjoemysavior\tags\blocks\metal_detector_detectable_blocks.json
 472748073cd4a61552806fa8c7855b22b2f698ae data\minecraft\tags\blocks\fence_gates.json
 992e91b9b5ef9b4b4b8ccfc53f05e78dd033d9cd data\minecraft\tags\blocks\needs_stone_tool.json

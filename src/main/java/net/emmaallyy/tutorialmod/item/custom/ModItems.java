@@ -16,6 +16,7 @@ public class ModItems
     public static final Item CREWMATE = registerItem("moongus", new Item(new FabricItemSettings()));
     public static final Item MOONGITE = registerItem("moongite", new Item(new FabricItemSettings()));
     public static final Item BARBATOSSOUL = registerItem("barbatos_soul", new BarbatosSoul(new FabricItemSettings()));
+    public static final Item WHOOPIECUSHION = registerItem("whoopie_cushion", new WhoopieCushion(new FabricItemSettings()));
     public static final Item ENERGYFRUIT = registerItem("energy_fruit", new Item(new FabricItemSettings().food(ModFoodComponents.ENERGYFRUIT)));
 
     public static final Item METALDETECTOR = registerItem("meetingbutton",
